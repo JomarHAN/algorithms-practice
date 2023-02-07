@@ -1,3 +1,9 @@
+/** Valid Palindrome
+ * Give a string,
+ * determine whether it is a palindrome
+ */
+
+
 /* Naive Solution */
 const naive = (str) => {
     const san = str.replace(/[^\w]/gi, '').toLowerCase()

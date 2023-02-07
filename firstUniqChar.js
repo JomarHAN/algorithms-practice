@@ -1,3 +1,16 @@
+/**Find first unique character
+ * Given a string, find the first non-repeating character in it, and return it's index
+ * If it doesn't exist, return -1
+ */
+
+/** PSEUDO
+ * We need to look at each character
+ * --> update the character count and store it
+ * look up each character in the table
+ * --> if it's unique (value == 1) return index,
+ * none are unique, return -1
+ */
+
 // SOLUTION 1
 var solution1 = function (s) {
     var hashTable = {};

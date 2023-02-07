@@ -1,4 +1,8 @@
-/*
+/** GROUP ANAGRAM
+ * Given an array of strings, return the strings grouped by Anagram
+ */
+
+/* PSEUDO
     Loop through the string input list
     --> sort each string
     --> sorted key in table? add to array
